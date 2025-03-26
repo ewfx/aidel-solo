@@ -1,0 +1,33 @@
+{
+  "scoring_agent": {
+    "isolation_forest_contamination": 0.1,
+    "large_donation_to_ngo_threshold": 50000,
+    "adjusted_score_for_large_donation": 30
+  },
+  "alert_agent": {
+    "high_risk_threshold": 70,
+    "medium_risk_threshold": 40
+  },
+  "classification_agent": {
+    "entity_labels": [
+      "Individual",
+      "Non-Profit Organization",
+      "Shell Company",
+      "Business Corporation"
+    ]
+  },
+  "behavior_agent": {
+    "behavior_labels": [
+      "Normal financial transaction",
+      "Unusually large transfer",
+      "Suspicious or fraudulent transaction",
+      "Potential money laundering activity",
+      "High-risk charitable donation",
+      "Regular monthly donation"
+    ],
+    "large_transaction_threshold": 10000
+  },
+  "network_agent": {
+    "ofac_pdf_url": "https://ofac.treasury.gov/system/files/2025-03/sdnlist.pdf"
+  }
+}

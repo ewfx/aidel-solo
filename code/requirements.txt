@@ -1,0 +1,11 @@
+# requirements.txt
+fastapi
+uvicorn
+pydantic
+transformers
+scikit-learn
+numpy
+requests
+fitz  # alias for PyMuPDF
+PyMuPDF
+streamlit

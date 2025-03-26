@@ -1,0 +1,59 @@
+{
+    "sender": "John Doe",
+    "receiver": "ABC Charity",
+    "amount": 500.00,
+    "timestamp": "2024-03-27T14:30:00Z",
+    "description": "Monthly charity donation"
+}
+
+
+[
+    {
+        "sender": "Alice Smith",
+        "receiver": "XYZ LLC",
+        "amount": 1500.00,
+        "timestamp": "2024-03-26T09:15:00Z",
+        "description": "Invoice payment"
+    },
+    {
+        "sender": "Bob Johnson",
+        "receiver": "DEF NGO",
+        "amount": 250.00,
+        "timestamp": "2024-03-26T11:45:00Z",
+        "description": "Donation"
+    }
+]
+
+
+[
+    {
+        "sender": "International Shell Corp.",
+        "receiver": "Suspicious Foundation",
+        "amount": 1250000.00,
+        "timestamp": "2024-03-25T23:59:59Z",
+        "description": "Offshore investment"
+    },
+    {
+        "sender": "Jane Doe",
+        "receiver": "Legitimate Business Inc.",
+        "amount": 9999.99,
+        "timestamp": "2024-03-25T08:00:00Z",
+        "description": "Service payment"
+    },
+    {
+        "sender": "Blacklisted Individual",
+        "receiver": "Unknown Entity",
+        "amount": 100.00,
+        "timestamp": "2024-03-27T12:00:00Z",
+        "description": "Miscellaneous transfer"
+    },
+    {
+        "sender": "Standard Financial Ltd.",
+        "receiver": "Local NGO",
+        "amount": 20000.00,
+        "timestamp": "2024-03-28T16:30:00Z",
+        "description": "Regular donation, high amount"
+    }
+]
+
+
